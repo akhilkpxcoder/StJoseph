@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="de87ca2f-d6be-402a-9258-f83f97ee558d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:55589/RegisterUser.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="RegisterUser.disco" MetadataType="Disco" ID="2492ad8a-8d3a-41f6-8153-21aaa811dfa2" SourceId="1" SourceUrl="http://localhost:55589/RegisterUser.svc?disco" />
+    <MetadataFile FileName="RegisterUser.wsdl" MetadataType="Wsdl" ID="a7ce59a8-100a-47c9-b2a2-f7fcd313de3c" SourceId="1" SourceUrl="http://localhost:55589/RegisterUser.svc?wsdl" />
+    <MetadataFile FileName="RegisterUser.xsd" MetadataType="Schema" ID="aff97018-5f69-4077-a38f-29fe8e2f8bf4" SourceId="1" SourceUrl="http://localhost:55589/RegisterUser.svc?xsd=xsd0" />
+    <MetadataFile FileName="RegisterUser1.xsd" MetadataType="Schema" ID="02429b50-f9ab-41e1-b9ed-f316035e654e" SourceId="1" SourceUrl="http://localhost:55589/RegisterUser.svc?xsd=xsd2" />
+    <MetadataFile FileName="RegisterUser2.xsd" MetadataType="Schema" ID="b2da02c0-a486-46a5-894c-c25470ec2e5d" SourceId="1" SourceUrl="http://localhost:55589/RegisterUser.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
